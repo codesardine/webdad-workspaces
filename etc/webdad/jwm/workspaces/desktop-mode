@@ -1,5 +1,7 @@
 #!/bin/bash
 
+sed -i '/hint_type/c\   \"hint_type\" : \"desktop\",' /opt/jade/application-settings.json
+
 sleep 3s
 
 FILE=/tmp/webdad-first-run.lock  

@@ -2,11 +2,17 @@
 <JWM>
 
     <!-- Workspaces -->
-  <Desktops height="2" width="3">
+  <Desktops height="6" width="1">
 
-    <Desktop name="Desktop Space">
+    <Desktop name="Main Desktop Space">
       <Background type="command">
         /etc/webdad/jwm/workspaces/desktop-mode
+      </Background>
+    </Desktop>
+    
+    <Desktop name="Secondary Desktop Space">
+      <Background type="command">
+        notify-send "Secondary Desktop Space"
       </Background>
     </Desktop>
 
@@ -21,12 +27,6 @@
        /etc/webdad/jwm/workspaces/media-center-mode
       </Background>
     </Desktop> 
-
-    <Desktop name="Secondary Desktop Space">
-      <Background type="command">
-        notify-send "Secondary Desktop Space"
-      </Background>
-    </Desktop>
 
     <Desktop name="Gaming Space">
       <Background type="command">

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<JWM>
+  
+  <Tray
+    layout="vertical"
+    label="workspaces"
+    width="260"
+    halign="right"
+    valign="center"
+    autohide="right"
+  > 
+    <Spacer height="1000"/>
+    <Pager labeled="true"/>
+    <Spacer height="1000"/>
+  </Tray>
+
+</JWM>
