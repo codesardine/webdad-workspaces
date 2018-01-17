@@ -4,7 +4,7 @@
   <Tray
     layout="vertical"
     label="workspaces"
-    width="260"
+    width="180"
     halign="right"
     valign="center"
     autohide="right"

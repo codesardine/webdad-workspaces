@@ -4,37 +4,37 @@
     <!-- Workspaces -->
   <Desktops height="6" width="1">
 
-    <Desktop name="Main Desktop Space">
+    <Desktop name="Main Desktop">
       <Background type="command">
         /etc/webdad/jwm/workspaces/desktop-mode
       </Background>
     </Desktop>
     
-    <Desktop name="Secondary Desktop Space">
+    <Desktop name="Secondary Desktop">
       <Background type="command">
         notify-send "Secondary Desktop Space"
       </Background>
     </Desktop>
 
-    <Desktop name="Internet Browsing Space">
+    <Desktop name="Internet Browsing">
       <Background type="command">
         /etc/webdad/jwm/workspaces/internet-browsing-mode
       </Background>
     </Desktop>  
 
-    <Desktop name="Media Center Space">
+    <Desktop name="Media Center">
       <Background type="command">
        /etc/webdad/jwm/workspaces/media-center-mode
       </Background>
     </Desktop> 
 
-    <Desktop name="Gaming Space">
+    <Desktop name="Gaming">
       <Background type="command">
         /etc/webdad/jwm/workspaces/gaming-mode
       </Background>
     </Desktop> 
 
-    <Desktop name="Terminal Space">
+    <Desktop name="Terminal">
       <Background type="command">
         /etc/webdad/jwm/workspaces/terminal-mode
       </Background>
