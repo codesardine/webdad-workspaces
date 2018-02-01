@@ -4,10 +4,10 @@
   <Tray
     layout="vertical"
     label="workspaces"
-    width="180"
-    halign="right"
+    width="260"
+    halign="left"
     valign="center"
-    autohide="right"
+    autohide="left"
   > 
     <Spacer height="1000"/>
     <Pager labeled="true"/>
