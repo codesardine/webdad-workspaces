@@ -1,0 +1,3 @@
+[submodule "test"]
+	path = /etc/webdad/jwm
+	url = https://github.com/codesardine/webdad-workspaces/
